@@ -73,3 +73,8 @@ Columns 0 to 3 (5, 6, 7, 8 in the attached connection diagram) are connected to 
 Server-side:
 
 The php code for the server side is also attached. 
+
+Possible improvements: 
+
+A GSM module can be connected to send an SMS to a designated emergency contact number if the temperature fall below or goes over a threshold value. 
+
