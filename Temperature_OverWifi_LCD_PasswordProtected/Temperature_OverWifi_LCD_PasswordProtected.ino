@@ -1,3 +1,15 @@
+/*
+  //    ----------------------------------------------------    //
+  (INSTALL OneWire library beforehand)
+  https://github.com/PaulStoffregen/OneWire
+
+  Temperature sensor ORANGE = VCC
+  Temperature sensor BLACK = GND
+  Temperature sensor YELLOW = Signal
+
+  //    ----------------------------------------------------    //
+*/
+
 #include <Wire.h>
 #include <Keypad.h>
 #include "SoftwareSerial.h"
@@ -78,7 +90,6 @@ void setup()
   digitalWrite(redpin, LOW);
   Serial.begin(9600);
   Wire.begin();
-  while (!Serial.available());
   esp.begin(9600);
   delay(1000);
   digitalWrite(whitepin, HIGH);
