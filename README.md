@@ -70,7 +70,7 @@ Rows 0 to 3 (1, 2, 3, 4 in the attached connection diagram) are connected to Ard
 
 Columns 0 to 3 (5, 6, 7, 8 in the attached connection diagram) are connected to Arduino D39, D41, D43 and D45 respectively.
 
-Server-side:
+Server-side code:
 
 The php code for the server side is also attached. 
 
